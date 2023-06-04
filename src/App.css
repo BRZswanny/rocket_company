@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+
+html{
+  background-image: url('https://cdn.wallpapersafari.com/1/97/co341S.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
+body{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}   body::-webkit-scrollbar{
+    display: none;
+  }
+
+/* ul{
+  position: relative;
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  margin: 0px;
+  left: 0px;
+  font-family: 'Wix Madefor Display', sans-serif;
+  color: white;
+  overflow: hidden;
+}
+    li{
+      float: left;
+      padding: 0px 10px;
+    }   
+
+
+.homeComponent{
+  background:rgb(49, 49, 49)
+}
+
+
+.cmpnyName{
+  letter-spacing: 0.1rem;
+  background-color: rgb(49, 49, 49);
+  font-family: 'Wix Madefor Display', sans-serif;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to top, #ffffff 0%, #7a7a7a 100%);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+} */
+header{
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: 1;
+  color: white;
+  background-color: rgba(99, 99, 99, 0.404);
+  display: flex;
+  justify-content: space-between;
+  /* padding-bottom: 20px; */
+  font-family: 'Wix Madefor Display', sans-serif;
+  overflow: hidden;
+  height: 50px;
+  width: 100%;
+  transition: 0.3s;
+} header:hover{
+    background-color: rgb(106, 183, 255);
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+.cmpnyName{
+  position: relative;
+  display: flex;
+  align-self: center;
+  padding-left: 15px;
+  font-weight: 400;
+}
+
+ul{
+  list-style-type: none;
+  list-style: none;
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 30px;
+}   
+    li{
+      padding: 0px 6px;
+    }
+      li a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.575);
+        transition: 0.3s;
+        opacity: 100%;
+      } li a:hover{
+        color: black;
+        transition: 0.5s;
+        text-shadow: 0px 0px 4px rgb(99, 99, 99);
+      }
+.homeComponent{
+  background: none;
+}
+
+.launchPic{
+  height: 100%;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 95px;
+}
+
+.Introduction{
+  
+  background-color: rgba(85, 85, 85, 0.767);
+  font-family: 'Wix Madefor Display', sans-serif;
+}
+  .introText{
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+  }
+
+  .mission{
+    color: white;
+    font-size: 20px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    text-align: center;
+  }
+.container{
+  margin: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} .contact{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    font-family: 'Wix Madefor Display', sans-serif;
+    text-align: center;
+    border-radius: 5px;
+  } .contactTitle{
+      font-weight: 100;
+      font-size: 40px;
+      text-decoration: none;
+    } .submitBttn{
+      font-family: 'Wix Madefor Display', sans-serif;
+      font-weight: 800;
+      font-size: 15px;
+      background-color: rgb(106, 183, 255);
+      border-radius: 5px;
+      
+      border: none;
+      width: 190px;
+      height: 40px;
+      transition: all 0.5s ease-out;
+    } .submitBttn:hover{
+        box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.39);
+        color: white;
+    }
+      .button1{
+        display: flex;
+        justify-content: center;
+      }
+
+
