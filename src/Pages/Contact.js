@@ -17,6 +17,9 @@ function Contact() {
         <div className='container'>
             <div className='contact'>
                 <h1 className='contactTitle'>Contact  Us</h1>
+                <div class="Email">
+                    <input type="email" placeholder='Email'/>
+                </div>    
             {/* <div className='button1'> */}
                 <button className='submitBttn'>Submit</button>
             </div>

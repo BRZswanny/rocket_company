@@ -144,28 +144,44 @@ ul{
     font-family: 'Wix Madefor Display', sans-serif;
     text-align: center;
     border-radius: 5px;
-  } .contactTitle{
+  } 
+    .contactTitle{
       font-weight: 100;
       font-size: 40px;
       text-decoration: none;
-    } .submitBttn{
-      font-family: 'Wix Madefor Display', sans-serif;
-      font-weight: 800;
-      font-size: 15px;
-      background-color: rgb(106, 183, 255);
-      border-radius: 5px;
-      
-      border: none;
-      width: 190px;
-      height: 40px;
-      transition: all 0.5s ease-out;
+    } 
+      .submitBttn{
+        font-family: 'Wix Madefor Display', sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+        background-color: rgb(106, 183, 255);
+        border-radius: 5px;      
+        border: none;
+        width: 190px;
+        height: 40px;
+        transition: all 0.5s ease-out;
     } .submitBttn:hover{
-        box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.39);
+        box-shadow: 1px 1px 1px rgb(106, 183, 255);
         color: white;
     }
       .button1{
         display: flex;
         justify-content: center;
       }
+        .Email{
+          border: none;
+          display: flex;
+          justify-content: center;
+          padding-bottom: 10px;
+        } input{
+          border: none;
+          border-radius: 5px;
+          height: 25px;
+          background-color: rgb(153, 153, 153);
+          transition: all 0.3s ease-out;
+          outline: none;
+        }   input:focus{
+              background-color: white;
+            }
 
 
